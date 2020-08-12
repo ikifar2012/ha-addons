@@ -45,5 +45,6 @@
     "rsync_rootfolder": "str",
     "rsync_user": "str",
     "rsync_password": "str"
-  }
+  },
+"image": "ikifar/remote-backup-{arch}"
 }
