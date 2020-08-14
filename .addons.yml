@@ -1,0 +1,6 @@
+channel: stable
+addons:
+  remote-backup:
+    repository: ikifar2012/remote-backup-addon
+    target: remote-backup
+    image: ikifar/remote-backup-{arch}
