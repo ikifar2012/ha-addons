@@ -1,4 +1,4 @@
-# Matheson's Home Assistant Addons
+# Matheson's Home Assistant Add-ons
 Here you will find a bunch of Home Assistant Addons maintained by me, Matheson Steplock
 
 # Installation
