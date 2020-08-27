@@ -14,6 +14,12 @@ This add-on is a fork of the work of [carstenschroeder] which was originally cre
 ## [Documentation](https://github.com/ikifar2012/remote-backup-addon/blob/master/remote-backup/DOCS.md)
 ## [Add-on Repository](https://github.com/ikifar2012/remote-backup-addon)
 
+# Rsyslog
+Rsyslog Home Assistant Add-on for monitoring the logs of your Tasmota devices
+
+## [Documentation](https://github.com/ikifar2012/rsyslog-ha-addon/blob/master/rsyslog/DOCS.md)
+## [Add-on Repository](https://github.com/ikifar2012/rsyslog-ha-addon)
+
 # Support Me
 [![Buy me a coffee][buymeacoffee-logo]][buymeacoffee]
 
