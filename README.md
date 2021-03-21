@@ -20,6 +20,13 @@ Rsyslog Home Assistant Add-on for monitoring the logs of your Tasmota devices
 ## [Documentation](https://github.com/ikifar2012/rsyslog-ha-addon/blob/master/rsyslog/DOCS.md)
 ## [Add-on Repository](https://github.com/ikifar2012/rsyslog-ha-addon)
 
+# Tasmota Device Manager
+GUI application to discover and monitor devices flashed with Tasmota
+Inspiration taken from the Home Assistant [deCONZ] addon for the implementation of VNC 
+
+# [Documentation](https://github.com/ikifar2012/tasmota-device-manager-addon/blob/master/tdm/DOCS.md)
+## [Add-on Repository](https://github.com/ikifar2012/tasmota-device-manager-addon)
+
 # Support Me
 [![Buy me a coffee][buymeacoffee-logo]][buymeacoffee]
 
