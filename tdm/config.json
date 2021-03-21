@@ -1,6 +1,6 @@
 {
   "name": "Tasmota Device Manager",
-  "version": "1.0.9",
+  "version": "2021.3.1",
   "slug": "tdm",
   "description": "GUI application to discover and monitor devices flashed with Tasmota",
   "arch": ["amd64", "armhf", "aarch64"],
