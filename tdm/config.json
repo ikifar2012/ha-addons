@@ -1,6 +1,6 @@
 {
   "name": "Tasmota Device Manager",
-  "version": "2021.3.2",
+  "version": "2021.4.0",
   "slug": "tdm",
   "description": "GUI application to discover and monitor devices flashed with Tasmota",
   "arch": ["amd64", "armhf", "aarch64"],
@@ -9,8 +9,9 @@
   "boot": "auto",
   "init": false,
   "ingress": true,
-  "ingress_entry": "novnc/vnc_lite.html",
-  "image": "ikifar/tdm-ha-adddon",
+  "panel_icon": "mdi:application-cog",
+  "ingress_entry": "novnc/vnc_lite.html?resize=scale",
+  "image": "ikifar/tdm-ha-addon",
   "map": ["share:rw"],
   "ports": {
     "5900/tcp": null
@@ -20,7 +21,9 @@
   },
   "host_network": true,
   "options": {
+    "debug": false
   },
   "schema": {
+    "debug": "bool"
   }
 }

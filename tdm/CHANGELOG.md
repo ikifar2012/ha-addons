@@ -1,3 +1,9 @@
+# 2021.4.0
+
+- Added autoscaling
+- Added panel icon
+- Added icon
+
 # 2021.3.2
 
 - Added `firefox-esr` for Web UI access
