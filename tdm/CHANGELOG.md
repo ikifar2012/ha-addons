@@ -1,3 +1,8 @@
+# 2021.5.0
+
+- Updated `tdmgr` to 0.2.10
+- Addresses Issue #7
+
 # 2021.4.0
 
 - Added autoscaling
