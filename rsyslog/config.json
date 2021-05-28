@@ -1,6 +1,6 @@
 {
     "name": "Rsyslog",
-    "version": "2021.4.0",
+    "version": "2021.5.0",
     "slug": "rsyslog",
     "description": "Rsyslog Home Assistant Add-on for monitoring the logs of your Tasmota devices",
     "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
