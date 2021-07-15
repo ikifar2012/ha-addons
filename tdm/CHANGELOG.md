@@ -1,3 +1,7 @@
+# 2021.7.0
+
+- Updated `tdmgr` to 0.2.11
+
 # 2021.5.0
 
 - Updated `tdmgr` to 0.2.10
