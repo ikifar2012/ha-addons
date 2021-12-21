@@ -1,9 +1,9 @@
 {
   "name": "Tasmota Device Manager",
-  "version": "2021.7.0",
+  "version": "2021.12.0",
   "slug": "tdm",
   "description": "GUI application to discover and monitor devices flashed with Tasmota",
-  "arch": ["amd64", "armhf", "aarch64"],
+  "arch": ["amd64"],
   "url": "https://github.com/ikifar2012/tasmota-device-manager-addon",
   "startup": "services",
   "boot": "auto",
