@@ -1,8 +1,8 @@
 name: Remote Backup
-version: '2022.1.0'
+version: '2022.1.1'
 slug: remote_backup
 description: Automatically create and backup HA backups using SCP
-url: https://github.com/ikifar2012/remote-backup-addon/blob/master/README.md
+url: https://addons.mathesonsteplock.ca/docs/addons/remote-backup/basic-config
 startup: once
 image: ikifar/remote-backup-{arch}
 boot: manual
