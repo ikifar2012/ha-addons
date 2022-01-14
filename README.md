@@ -13,23 +13,29 @@ https://github.com/ikifar2012/ha-addons
 ```
 Follow the instructions [here] for more detailed instructions
 
+# amcrest2mqtt
+amcrest2mqtt Home Assistant addon based on the work of [dchesterton](https://github.com/dchesterton/amcrest2mqtt)
+
+## [Documentation](https://addons.mathesonsteplock.ca/docs/addons/amcrest2mqtt/basic-config)
+## [Add-on Repository](https://github.com/ikifar2012/amcrest2mqtt-addon)
+
 # Remote Backup
 This add-on is a fork of the work of [carstenschroeder] which was originally created by [overkill32]
 
-## [Documentation](https://github.com/ikifar2012/remote-backup-addon/blob/master/remote-backup/DOCS.md)
+## [Documentation](https://addons.mathesonsteplock.ca/docs/addons/remote-backup/basic-config)
 ## [Add-on Repository](https://github.com/ikifar2012/remote-backup-addon)
 
 # Rsyslog
 Rsyslog Home Assistant Add-on for monitoring the logs of your Tasmota devices
 
-## [Documentation](https://github.com/ikifar2012/rsyslog-ha-addon/blob/master/rsyslog/DOCS.md)
+## [Documentation](https://addons.mathesonsteplock.ca/docs/addons/rsyslog/basic-config)
 ## [Add-on Repository](https://github.com/ikifar2012/rsyslog-ha-addon)
 
 # Tasmota Device Manager
 GUI application to discover and monitor devices flashed with Tasmota
 Inspiration taken from the Home Assistant [deCONZ] addon for the implementation of VNC
 
-## [Documentation](https://github.com/ikifar2012/tasmota-device-manager-addon/blob/master/tdm/DOCS.md)
+## [Documentation](https://addons.mathesonsteplock.ca/docs/addons/tdm/basic-config)
 ## [Add-on Repository](https://github.com/ikifar2012/tasmota-device-manager-addon)
 
 # Support Me
