@@ -5,6 +5,7 @@
 - Moved docs to [addons.mathesonsteplock.ca](https://addons.mathesonsteplock.ca/docs/addons/remote-backup/basic-config)
 
 **Full Changelog**: https://github.com/ikifar2012/remote-backup-addon/compare/2021.12.0...2022.1.0
+
 # 2021.12.0
 
 - Upgraded base image to 11.0.0
