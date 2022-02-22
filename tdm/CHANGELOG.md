@@ -1,3 +1,10 @@
+# 2022.2.0
+
+- Added MQTT auto configuration
+- Added `i3status`
+- Switch to `${HOME}` variable
+- Solves issue VNC config window always showing #12
+
 # 2021.12.0
 
 - Switch to i3 window manager
