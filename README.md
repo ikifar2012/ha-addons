@@ -39,9 +39,8 @@ Inspiration taken from the Home Assistant [deCONZ] addon for the implementation 
 ## [Add-on Repository](https://github.com/ikifar2012/tasmota-device-manager-addon)
 
 # Support Me
-[![Buy me a coffee][buymeacoffee-logo]][buymeacoffee]
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/mathesonsteplock)
 
-[buymeacoffee-logo]: https://cdn.buymeacoffee.com/buttons/default-black.png
 [buymeacoffee]: https://www.buymeacoffee.com/mathesonstep
 [overkill32]: https://github.com/overkill32/hassio-remote-backup
 [carstenschroeder]: https://github.com/carstenschroeder/hassio-addons
