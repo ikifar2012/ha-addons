@@ -1,5 +1,5 @@
 name: amcrest2mqtt
-version: 2022.3.0
+version: 2022.5.0
 slug: amcrest2mqtt-addon
 description: A Home Assistant addon for amcrest2mqtt
 url: https://github.com/ikifar2012/amcrest2mqtt-addon/blob/master/README.md
@@ -10,6 +10,7 @@ arch:
 - amd64
 - i386
 image: ikifar/amcrest2mqtt-addon-{arch}
+codenotary: cas@mathesonsteplock.ca
 startup: services
 boot: auto
 map:
