@@ -1,3 +1,11 @@
+# 2022.5.0
+
+- Upgrade base image to 11.1.2
+- Sign with Codenotary CAS
+- Switch to ko-fi for donations
+
+**Full Changelog**: https://github.com/ikifar2012/rsyslog-ha-addon/compare/2022.1.0...2022.5.0
+
 # 2022.1.0
 
 - Switched to alpine base image
