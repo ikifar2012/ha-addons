@@ -1,3 +1,9 @@
+# 2022.5.1
+
+- Revert amcrest2mqtt to version 1.0.15 to mitigate issue #4
+
+**Full Changelog**: https://github.com/ikifar2012/amcrest2mqtt-addon/compare/2022.5.0...2022.5.1
+
 # 2022.5.0
 
 - Upgrade base image to 11.1.2
