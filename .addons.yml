@@ -4,3 +4,15 @@ addons:
     repository: ikifar2012/remote-backup-addon
     target: remote-backup
     image: ikifar/remote-backup-{arch}
+  tdm:
+    repository: ikifar2012/tdm-backup-addon
+    target: tdm
+    image: ikifar2012/tasmota-device-manager-addon
+  amcrest2mqtt-addon:
+    repository: ikifar2012/amcrest2mqtt-addon
+    target: amcrest2mqtt-addon
+    image: ikifar/amcrest2mqtt-addon-{arch}
+  rsyslog:
+    repository: ikifar2012/rsyslog-ha-addon
+    target: rsyslog
+    image: ikifar/rsyslog-ha-{arch}
