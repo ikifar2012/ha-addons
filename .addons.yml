@@ -5,9 +5,9 @@ addons:
     target: remote-backup
     image: ikifar/remote-backup-{arch}
   tdm:
-    repository: ikifar2012/tdm-backup-addon
+    repository: ikifar2012/tasmota-device-manager-addon
     target: tdm
-    image: ikifar2012/tasmota-device-manager-addon
+    image: ikifar/tdm-ha-addon
   amcrest2mqtt-addon:
     repository: ikifar2012/amcrest2mqtt-addon
     target: amcrest2mqtt-addon
