@@ -12,6 +12,7 @@ jobs:
       - name: 🚀 Run Repository Updater
         env:
           GIT_AUTHOR_EMAIL: contact@mathesonsteplock.ca
+          EMAIL: contact@mathesonsteplock.ca
         uses: hassio-addons/repository-updater@v1.2.2
         with:
           addon: ${{ github.event.client_payload.addon }}
