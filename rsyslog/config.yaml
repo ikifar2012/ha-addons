@@ -1,26 +1,26 @@
-name: Rsyslog
-version: '2022.5.0'
-slug: rsyslog
-url: https://addons.mathesonsteplock.ca/docs/addons/rsyslog/basic-config
+arch:
+- armhf
+- armv7
+- aarch64
+- amd64
+- i386
+boot: auto
+codenotary: cas@mathesonsteplock.ca
 description: Rsyslog Home Assistant Add-on for monitoring the logs of your Tasmota
   devices
-arch:
-  - armhf
-  - armv7
-  - aarch64
-  - amd64
-  - i386
-startup: services
 image: ikifar/rsyslog-ha-{arch}
-codenotary: cas@mathesonsteplock.ca
-boot: auto
 map:
-  - share:rw
+- share:rw
+name: Rsyslog
+options: {}
 ports:
   514/tcp: 514
   514/udp: 514
 ports_description:
   514/tcp: rsyslog TCP Port
   514/udp: rsyslog UDP Port
-options: {}
 schema: {}
+slug: rsyslog
+startup: services
+url: https://addons.mathesonsteplock.ca/docs/addons/rsyslog/basic-config
+version: 2022.5.1
