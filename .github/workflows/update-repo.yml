@@ -9,11 +9,9 @@ jobs:
     name: Running updater for ${{ github.event.client_payload.addon }}
     runs-on: ubuntu-latest
     steps:
-      - name: Setup Git
-        run: |
-          git config --global user.name "ikifar2012"
-          git config --global user.email "contact@mathesonsteplock.ca"
       - name: 🚀 Run Repository Updater
+        env:
+          GIT_AUTHOR_EMAIL: contact@mathesonsteplock.ca
         uses: hassio-addons/repository-updater@v1.2.2
         with:
           addon: ${{ github.event.client_payload.addon }}
