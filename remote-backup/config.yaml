@@ -11,6 +11,7 @@ hassio_api: true
 hassio_role: manager
 homeassistant: 2021.9.0
 image: ikifar/remote-backup-{arch}
+init: false
 map:
 - config
 - addons
@@ -77,4 +78,4 @@ schema:
 slug: remote_backup
 startup: once
 url: https://addons.mathesonsteplock.ca/docs/addons/remote-backup/basic-config
-version: 2022.7.1
+version: 2022.7.2
