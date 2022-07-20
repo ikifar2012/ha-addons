@@ -77,4 +77,4 @@ schema:
 slug: remote_backup
 startup: once
 url: https://addons.mathesonsteplock.ca/docs/addons/remote-backup/basic-config
-version: 2022.7.0
+version: 2022.7.1
