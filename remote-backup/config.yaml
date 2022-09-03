@@ -6,10 +6,12 @@ arch:
 - i386
 boot: manual
 codenotary: cas@mathesonsteplock.ca
-description: Automatically create and backup HA backups using SCP
+description: Automatically create and transfer HA backups using SFTP (SCP), rsync,
+  or rclone (experimental)
 hassio_api: true
 hassio_role: manager
 homeassistant: 2021.9.0
+homeassistant_api: true
 image: ikifar/remote-backup-{arch}
 init: false
 map:
@@ -17,65 +19,53 @@ map:
 - addons
 - share
 - ssl
-- backup:rw
+- backup
 name: Remote Backup
 options:
-  custom_prefix: Automated backup
-  debug: false
-  exclude_addons: ''
-  exclude_folders: ''
-  friendly_name: true
-  keep_local_backup: all
-  rclone_copy: false
-  rclone_enabled: false
-  rclone_remote: ''
-  rclone_remote_directory: ''
-  rclone_restore: false
-  rclone_sync: false
-  remote_directory: ''
+  backup_custom_prefix: Automated backup
+  backup_friendly_name: true
+  backup_keep_local: all
+  remote_host: null
+  remote_key: ''
+  remote_port: 22
+  remote_user: null
   rsync_enabled: false
-  rsync_exclude: ''
-  rsync_host: ''
-  rsync_password: ''
+  rsync_exclude:
+  - /config/*.db-shm
+  - /config/*.db-wal
+  - /config/*.db
   rsync_rootfolder: hassio-sync
-  rsync_user: ''
-  rsync_verbose: false
   ssh_enabled: true
-  ssh_host: ''
-  ssh_host_key_algorithms: ''
-  ssh_key: ''
-  ssh_port: 22
-  ssh_user: ''
-  zip_password: ''
+  ssh_remote_directory: hassio-backup
 schema:
-  custom_prefix: str?
+  backup_custom_prefix: str?
+  backup_exclude_addons:
+  - str?
+  backup_exclude_folders:
+  - match(^[A-Za-z0-9_\-\.\*\/\?\+\\ ]*$)?
+  backup_friendly_name: bool?
+  backup_keep_local: match(^(all|[+]?\d*)$)?
+  backup_password: str?
   debug: bool?
-  exclude_addons: str?
-  exclude_folders: str?
-  friendly_name: bool?
-  keep_local_backup: match(^(all|[+]?\d*)$)
   rclone_copy: bool?
   rclone_enabled: bool?
-  rclone_remote: str?
   rclone_remote_directory: str?
+  rclone_remote_host: str?
   rclone_restore: bool?
   rclone_sync: bool?
-  remote_directory: str?
-  rsync_enabled: bool?
-  rsync_exclude: str?
-  rsync_host: str?
-  rsync_password: str?
+  remote_host: str
+  remote_host_key_algorithms: str?
+  remote_key: str?
+  remote_password: str?
+  remote_port: port
+  remote_user: str
+  rsync_enabled: bool
+  rsync_exclude:
+  - match(^[A-Za-z0-9_\-\.\*\/\?\+\\ ]+$)?
   rsync_rootfolder: str?
-  rsync_user: str?
-  rsync_verbose: bool?
-  ssh_enabled: bool?
-  ssh_host: str?
-  ssh_host_key_algorithms: str?
-  ssh_key: str?
-  ssh_port: int?
-  ssh_user: str?
-  zip_password: str?
+  ssh_enabled: bool
+  ssh_remote_directory: str?
 slug: remote_backup
 startup: once
 url: https://addons.mathesonsteplock.ca/docs/addons/remote-backup/basic-config
-version: 2022.7.2
+version: 2022.9.0
