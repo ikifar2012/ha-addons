@@ -44,7 +44,7 @@ schema:
   backup_exclude_folders:
   - match(^[A-Za-z0-9_\-\.\*\/\?\+\\ ]*$)?
   backup_friendly_name: bool?
-  backup_keep_local: match(^(all|[+]?\d*)$)?
+  backup_keep_local: match(^(all|null|[+]?\d*)$)?
   backup_password: str?
   debug: bool?
   rclone_copy: bool?
@@ -68,4 +68,4 @@ schema:
 slug: remote_backup
 startup: once
 url: https://addons.mathesonsteplock.ca/docs/addons/remote-backup/basic-config
-version: 2022.9.4
+version: 2022.12.0
