@@ -1,5 +1,5 @@
 name: amcrest2mqtt
-version: 2022.5.1
+version: 2023.3.1
 slug: amcrest2mqtt-addon
 description: A Home Assistant addon for amcrest2mqtt
 url: https://github.com/ikifar2012/amcrest2mqtt-addon/blob/master/README.md
@@ -13,6 +13,7 @@ image: ikifar/amcrest2mqtt-addon-{arch}
 codenotary: cas@mathesonsteplock.ca
 startup: services
 boot: auto
+init: false
 map:
 - ssl:ro
 services:
@@ -20,7 +21,7 @@ services:
 options:
   amcrest_host: ''
   amcrest_port: '80'
-  amcrest_username: 'admin'
+  amcrest_username: admin
   amcrest_password: ''
   storage_poll_interval: '3600'
   device_name: ''
