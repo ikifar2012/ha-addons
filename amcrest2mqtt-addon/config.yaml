@@ -1,5 +1,5 @@
 name: amcrest2mqtt
-version: 2023.3.0
+version: 2023.3.2
 slug: amcrest2mqtt-addon
 description: A Home Assistant addon for amcrest2mqtt
 url: https://github.com/ikifar2012/amcrest2mqtt-addon/blob/master/README.md
