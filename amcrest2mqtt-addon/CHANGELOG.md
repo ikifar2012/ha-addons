@@ -1,6 +1,4 @@
-- Fix MQTT service not available #15
-- Temporarily switch to my own fork with dependency fix
-- Bump base image to 13.1.4
-- Fix config options
+- Switch Branch (Addresses #10, #14, #15, #20)
+- ⬆Update Add-on base image to v13.2.2
 
-**Full Changelog**: https://github.com/ikifar2012/amcrest2mqtt-addon/compare/2023.3.2...2023.3.3
+**Full Changelog**: https://github.com/ikifar2012/amcrest2mqtt-addon/compare/2023.3.3...2023.5.0
