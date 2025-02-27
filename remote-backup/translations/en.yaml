@@ -18,12 +18,16 @@ configuration:
     description: SSH private key file to be used for authentication with remote server. The key must be stored in the directory 'addon_configs/3490a758_remote_backup' of Home Assistant.
   remote_host_key_algorithms:
     name: Host key algorithms
-    description: Can be used to enable further (legacy) algorithms for authentication  
+    description: Can be used to enable further (legacy) algorithms for authentication
   backup_friendly_name:
     name: Friendly name
     description: Rename the backup on the destination server to match the name in the Home Assistant UI
   backup_custom_prefix:
     name: Custom backup name prefix
+    description: Prefix to be used for the backup name
+  backup_custom_delimiter:
+    name: Custom backup name delimiter
+    description: Allows you to change the delimiter between the prefix and the date of the snapshot, by default this is set to `_`
   backup_exclude_folders:
     name: Folder to exclude from backup
     description: valid options are addons/local, homeassistant, media, share, ssl, all_addon_configs
@@ -32,7 +36,7 @@ configuration:
     description: Give the addons slug which equals the addon hostname using '_' instead of '-', e.g. core_mariadb
   backup_keep_local:
     name: Local backups to keep
-    description: default is 'all', give a number for the last x backups to keep or empty to immediately remove created backups after copying.
+    description: default is 'all', give a number for the last x backups to keep or 'null' to immediately remove created backups after copying.
   backup_password:
     name: Password for protected backup
   ssh_enabled:
